@@ -4,9 +4,9 @@
 
 ## Checklist
 
-- [ ] `make check` passes.
+- [ ] `node scripts/check.mjs` passes (Node.js 22 or newer; no package manager, install, or build).
 - [ ] The manifest and generated README catalog are current.
-- [ ] Skill mappings refer to declared local or external skills.
+- [ ] Skill mappings refer to declared local or external skills, and generated outputs are current.
 - [ ] New skill instructions have been reviewed for unsafe behavior.
 - [ ] Documentation and tests are updated as needed.
 
